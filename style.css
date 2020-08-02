@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    background-color: #f4f4f4;
+    font-family: 'Sriracha', cursive;
+}
+
+.notecard{
+    margin: 30px;
+    background-color:#3f3f3f;
+    color:#ffffff;   
+}
+.notesbody{
+    margin: auto;
+}
+.center{
+    text-align: center;
+}
+.cdbtn{
+    display:flex;
+    flex-direction: column;
+}
+.markImpo{
+    font-size:large;
+    padding: 2px 6px;
+    cursor: pointer;
+}
+.markImpofill{
+    font-size:large;
+    padding: 2px 6px;
+    display:none;
+    cursor: pointer;
+}
+.impheading{
+    text-align: right;
+}
+.markedImp{
+    /* content: "";
+    position: absolute;
+    top:-3px; left: -3px;
+    right: -3px; bottom: -3px;
+    background-image: linear-gradient(127deg,rgb(81, 27, 206),#da292a,rgb(36, 15, 228));
+    z-index: -1; */
+    /* background-color: #4d4d4d; */
+    /* color:#d5e7e7; */
+    /* background-color: #000000; */
+    background-color:#3f3f3f;
+   color:#ffc107;
+}
+.textAreas{
+    margin: 10px 0px;
+    /* padding: 3px; */
+}
